@@ -1,0 +1,11 @@
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\bin\Debug\netstandard2.0\Authors.Models.deps.json
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\bin\Debug\netstandard2.0\Authors.Models.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\bin\Debug\netstandard2.0\Authors.Models.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\bin\Debug\netstandard2.0\Authors.CQRS.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\bin\Debug\netstandard2.0\Authors.CQRS.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.csprojAssemblyReference.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Models\obj\Debug\netstandard2.0\Authors.Models.csproj.CopyComplete

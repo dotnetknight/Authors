@@ -1,0 +1,8 @@
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\bin\Debug\netstandard2.0\Authors.CQRS.deps.json
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\bin\Debug\netstandard2.0\Authors.CQRS.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\obj\Debug\netstandard2.0\Authors.CQRS.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\obj\Debug\netstandard2.0\Authors.CQRS.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\bin\Debug\netstandard2.0\Authors.CQRS.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\obj\Debug\netstandard2.0\Authors.CQRS.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\obj\Debug\netstandard2.0\Authors.CQRS.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.CQRS\obj\Debug\netstandard2.0\Authors.CQRS.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.Service.deps.json
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.Service.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.Service.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.csprojAssemblyReference.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.CQRS.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.Models.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.Models.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\bin\Debug\netstandard2.0\Authors.CQRS.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Service\obj\Debug\netstandard2.0\Authors.Service.csproj.CopyComplete

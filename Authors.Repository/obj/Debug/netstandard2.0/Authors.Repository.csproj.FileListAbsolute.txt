@@ -1,0 +1,11 @@
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\bin\Debug\netstandard2.0\Authors.Repository.deps.json
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\bin\Debug\netstandard2.0\Authors.Repository.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\bin\Debug\netstandard2.0\Authors.Repository.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\bin\Debug\netstandard2.0\Authors.Domain.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\bin\Debug\netstandard2.0\Authors.Domain.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.csprojAssemblyReference.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.csproj.CopyComplete
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Repository\obj\Debug\netstandard2.0\Authors.Repository.pdb

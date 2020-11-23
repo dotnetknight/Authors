@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Authors.API</name>
+    </assembly>
+    <members>
+        <member name="M:Authors.API.Controllers.AuthorsController.Authors(Authors.Models.Queries.AuthorsQuery)">
+            <summary>
+            Returns all authors
+            </summary>
+            <response code="200">Returns authors in the system</response>
+        </member>
+        <member name="M:Authors.API.Controllers.AuthorsController.CreateAuthor(Authors.Models.Commands.CreateAuthorCommand)">
+            <summary>
+            Creates new author in the system
+            </summary>
+            <param name="command"></param>
+            <response code="201">Creates new author in the system</response>
+            <response code="400">Unable to add new user in the system due to validation error</response>
+        </member>
+        <member name="M:Authors.API.Controllers.AuthorsController.Author(Authors.Models.Queries.AuthorQuery)">
+            <summary>
+            Return author with specific id
+            </summary>
+            <param name="query"></param>
+            <response code="200">Author with id</response>
+            <response code="404">Author not found</response>
+        </member>
+        <member name="M:Authors.API.Controllers.AuthorsController.AuthorsControllerOptions">
+            <summary>
+            Communication options for a given URL
+            </summary>
+            <response code="200">Returns allowed http methods</response>
+        </member>
+        <member name="M:Authors.API.Controllers.CoursesController.Courses(Authors.Models.Queries.AuthorCoursesQuery)">
+            <summary>
+            Returns courses in the system
+            </summary>
+            <param name="query"></param>
+            <response code="200">Returns courses in the system</response>
+            <response code="404">Author not found</response>
+        </member>
+        <member name="M:Authors.API.Controllers.CoursesController.AuthorCourse(Authors.Models.Queries.AuthorCourseQuery)">
+            <summary>
+            Returns specific course for author
+            </summary>
+            <param name="query"></param>
+            <response code="200">Returns course for author</response>
+            <response code="404">Author or course not found</response>
+        </member>
+        <member name="M:Authors.API.Controllers.CoursesController.CreateCourseForAuthor(Authors.Models.Commands.CreateCourseForAuthorCommand)">
+            <summary>
+            Creates course for author
+            </summary>
+            <param name="command"></param>
+            <response code="201">Course for author was created</response>
+            <response code="404">Author not found</response>
+            <response code="400">Error occured during field validation</response>
+        </member>
+        <member name="M:Authors.API.Controllers.CoursesController.UpdateCourseForAuthor(Authors.Models.Commands.UpdateCourseForAuthorCommand)">
+            <summary>
+            Updates course for author
+            </summary>
+            <param name="command"></param>
+            <response code="204">Course for author was updated</response>
+            <response code="404">Author or course not found</response>
+            <response code="400">Error occured during field validation</response>
+        </member>
+        <member name="M:Authors.API.Controllers.RootController.GetRoot">
+            <summary>
+            Creates root links for application
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

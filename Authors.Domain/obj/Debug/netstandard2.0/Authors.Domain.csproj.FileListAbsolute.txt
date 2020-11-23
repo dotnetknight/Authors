@@ -1,0 +1,8 @@
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\bin\Debug\netstandard2.0\Authors.Domain.deps.json
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\bin\Debug\netstandard2.0\Authors.Domain.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\bin\Debug\netstandard2.0\Authors.Domain.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\obj\Debug\netstandard2.0\Authors.Domain.AssemblyInfoInputs.cache
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\obj\Debug\netstandard2.0\Authors.Domain.AssemblyInfo.cs
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\obj\Debug\netstandard2.0\Authors.Domain.dll
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\obj\Debug\netstandard2.0\Authors.Domain.pdb
+C:\Users\skott\Desktop\Projects\Core\Authors\Authors.Domain\obj\Debug\netstandard2.0\Authors.Domain.csprojAssemblyReference.cache
