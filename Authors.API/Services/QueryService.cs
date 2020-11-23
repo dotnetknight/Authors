@@ -19,10 +19,6 @@ namespace Authors.API.Services
             services.AddTransient(typeof(HATEOASLinksService), typeof(HATEOASLinksService));
             services.AddTransient(typeof(MediaTypeCheckService), typeof(MediaTypeCheckService));
 
-            builder.RegisterAssemblyTypes(typeof(GambitQueryHandler).Assembly)
-                .AsClosedTypesOf(typeof(IQueryHandlerAsync<,>))
-                .EnableClassInterceptors();
-
             builder.RegisterAssemblyTypes(typeof(AuthorsQueryHandler).Assembly)
                .AsClosedTypesOf(typeof(IQueryHandlerAsync<,>))
                .EnableClassInterceptors();

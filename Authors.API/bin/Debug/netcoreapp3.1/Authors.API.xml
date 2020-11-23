@@ -66,6 +66,13 @@
             <response code="404">Author or course not found</response>
             <response code="400">Error occured during field validation</response>
         </member>
+        <member name="M:Authors.API.Controllers.CoursesController.DeleteAuthorCourse">
+            <summary>
+            Deletes course for author
+            </summary>
+            <response code="204">Deletes course for author</response>
+            <response code="404">Author or course not found</response>
+        </member>
         <member name="M:Authors.API.Controllers.RootController.GetRoot">
             <summary>
             Creates root links for application

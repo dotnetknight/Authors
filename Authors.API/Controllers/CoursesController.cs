@@ -96,5 +96,19 @@ namespace Authors.API.Controllers
             await _commandBus.ExecuteAsync(command);
             return NoContent();
         }
+
+        /// <summary>
+        /// Deletes course for author
+        /// </summary>
+        /// <response code="204">Deletes course for author</response>
+        /// <response code="404">Author or course not found</response>
+        [HttpDelete("{CourseId}", Name = "DeleteAuthorCourse")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(ErrorModel), 404)]
+        public async Task<ActionResult> DeleteAuthorCourse()
+        {
+            await _commandBus.ExecuteAsync(new DeleteAuthorCourseCommand());
+            return NoContent();
+        }
     }
 }

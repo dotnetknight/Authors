@@ -52,7 +52,12 @@ namespace Authors.API.Controllers
 
                 new LinkModel(Url.Link("UpdateCourseForAuthor", new { }),
                 "update_course_for_author",
-                "POST"
+                "PUT"
+                ),
+
+                new LinkModel(Url.Link("DeleteAuthorCourse", new { }),
+                "delete_course_for_author",
+                "DELETE"
                 ),
 
                 new LinkModel(Url.Link("Options", new { }),

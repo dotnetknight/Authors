@@ -60,7 +60,12 @@ namespace Authors.Service
 
                 new LinkModel(urlHelper.Link("UpdateCourseForAuthor", new { }),
                 "update_course_for_author",
-                "POST"
+                "PUT"
+                ),
+
+                new LinkModel(urlHelper.Link("DeleteAuthorCourse", new { }),
+                "delete_course_for_author",
+                "DELETE"
                 )
             };
 

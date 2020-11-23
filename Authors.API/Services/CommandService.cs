@@ -17,15 +17,15 @@ namespace Authors.API.Services
             services.AddScoped(typeof(HATEOASLinksService), typeof(HATEOASLinksService));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-            builder.RegisterAssemblyTypes(typeof(AddGambitCommandHandler).Assembly)
-                .AsClosedTypesOf(typeof(ICommandHandlerAsync<,>))
-                .EnableClassInterceptors();
-
             builder.RegisterAssemblyTypes(typeof(CreateAuthorCommandHandler).Assembly)
                .AsClosedTypesOf(typeof(ICommandHandlerAsync<,>))
                .EnableClassInterceptors();
 
             builder.RegisterAssemblyTypes(typeof(UpdateCourseForAuthorCommandHandler).Assembly)
+                .AsClosedTypesOf(typeof(ICommandHandlerAsync<>))
+                .EnableClassInterceptors();
+
+            builder.RegisterAssemblyTypes(typeof(DeleteAuthorCourseCommandHandler).Assembly)
                 .AsClosedTypesOf(typeof(ICommandHandlerAsync<>))
                 .EnableClassInterceptors();
         }
