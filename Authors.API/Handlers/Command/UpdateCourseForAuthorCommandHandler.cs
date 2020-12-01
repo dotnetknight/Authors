@@ -53,9 +53,13 @@ namespace Authors.API.Handlers.Command
                 if (!courseExists)
                     throw new CourseNotFound("Course with this id not found in the system.");
 
-                var course = _coursesRepository.Get(courseId);
 
-                var mappedCourse = _mapper.Map(command,course);
+                var course = _coursesRepository.Get(courseId);
+                var courseToPatch = _mapper.Map(course, command);
+                
+                command.JsonPatchDocument.ApplyTo(courseToPatch);
+
+                var mappedCourse = _mapper.Map(courseToPatch, course);
 
                 _coursesRepository.Update(mappedCourse);
 

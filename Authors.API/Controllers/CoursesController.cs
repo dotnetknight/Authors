@@ -84,16 +84,16 @@ namespace Authors.API.Controllers
         /// <summary>
         /// Updates course for author
         /// </summary>
-        /// <param name="command"></param>
+        /// <param name="patchDocument"></param>
         /// <response code="204">Course for author was updated</response>
         /// <response code="404">Author or course not found</response>
         /// <response code="400">Error occured during field validation</response>
-        [HttpPut("{CourseId}", Name = "UpdateCourseForAuthor")]
-        [ProducesResponseType(typeof(UpdateCourseForAuthorCommandResponse), 204)]
+        [HttpPatch("{CourseId}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(ErrorModel), 404)]
-        public async Task<ActionResult<UpdateCourseForAuthorCommandResponse>> UpdateCourseForAuthor([FromBody] UpdateCourseForAuthorCommand command)
+        public async Task<ActionResult> PartiallyUpdateCourseForAuthorAsync([FromBody] JsonPatchDocument<UpdateCourseForAuthorCommand> patchDocument)
         {
-            await _commandBus.ExecuteAsync(command);
+            await _commandBus.ExecuteAsync(new UpdateCourseForAuthorCommand(patchDocument));
             return NoContent();
         }
 

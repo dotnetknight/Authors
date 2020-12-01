@@ -13,6 +13,7 @@ namespace Authors.API.Mapping
             CreateMap<CreateAuthorCommand, Author>();
             CreateMap<CreateCourseForAuthorCommand, Course>();
             CreateMap<UpdateCourseForAuthorCommand, Course>();
+            CreateMap<Course, UpdateCourseForAuthorCommand>();
         }
     }
 }

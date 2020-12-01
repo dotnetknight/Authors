@@ -57,11 +57,11 @@
             <response code="404">Author not found</response>
             <response code="400">Error occured during field validation</response>
         </member>
-        <member name="M:Authors.API.Controllers.CoursesController.UpdateCourseForAuthor(Authors.Models.Commands.UpdateCourseForAuthorCommand)">
+        <member name="M:Authors.API.Controllers.CoursesController.PartiallyUpdateCourseForAuthorAsync(Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Authors.Models.Commands.UpdateCourseForAuthorCommand})">
             <summary>
             Updates course for author
             </summary>
-            <param name="command"></param>
+            <param name="patchDocument"></param>
             <response code="204">Course for author was updated</response>
             <response code="404">Author or course not found</response>
             <response code="400">Error occured during field validation</response>

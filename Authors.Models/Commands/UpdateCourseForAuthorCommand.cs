@@ -1,4 +1,5 @@
 ﻿using Authors.CQRS.Interfaces;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace Authors.Models.Commands
 {
@@ -6,5 +7,12 @@ namespace Authors.Models.Commands
     {
         public string Title { get; set; }
         public string Description { get; set; }
+
+        public JsonPatchDocument<UpdateCourseForAuthorCommand> JsonPatchDocument { get; set; }
+
+        public UpdateCourseForAuthorCommand(JsonPatchDocument<UpdateCourseForAuthorCommand> jsonPatchDocument)
+        {
+            JsonPatchDocument = jsonPatchDocument;
+        }
     }
 }
